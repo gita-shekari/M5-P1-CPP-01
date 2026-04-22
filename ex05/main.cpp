@@ -6,7 +6,7 @@
 /*   By: gshekari <gshekari@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/21 21:04:24 by gshekari          #+#    #+#             */
-/*   Updated: 2026/04/21 21:29:31 by gshekari         ###   ########.fr       */
+/*   Updated: 2026/04/22 17:15:29 by gshekari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,9 @@
 int main(void)
 {
 	Harl harl;
-	harl.complain("Debug");
+	harl.complain("DEBUG");
+	harl.complain("INFO");
+	harl.complain("WARNING");
+	harl.complain("ERROR");
 	return 0;
 }
